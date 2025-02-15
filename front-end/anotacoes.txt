@@ -1,0 +1,101 @@
+auto rename tag - extenção para tags html
+
+!+tab - cria um bloco html automaticamente
+
+rafce (React Arrow Function Component Export) - Atalho da extenção react native custom snippet cria uma function em Java Script automaticamente
+
+npm - Node Package Manager
+
+Vite.dev - Ferramenta de construção Web Crai o template do projeto
+
+1 instala o Node
+2 Instala o Vite - npm create vite@latest .
+3 Remove os arquivos e continua
+4 Nomeia o arquivo
+5 Escolhe a técnologia (React)
+6 Escolhe a linguagem (Java Script)
+7 npm install - Vai instalar as dependências do projeto
+8 npm run dev - Vai abrir o projeto
+9 npm i react-router-dom - Instala o pacote para criar as rotas das páginas
+10 npm i express - Instala o express
+11 npm i cors(midlaware) - Instala o Cors
+
+main.jsx - Arquivo principal do React
+
+// Back-end //
+1 npm init -y - Instala o node na forma mais simples
+2 npm i express - Instala o express
+3 npm i axios - instala o pacote do axios que permite fazer requisições de api
+4 npm i cors(midlaware) - Instala o Cors
+
+Tudo no React é um componente
+
+<StrictMode></StrictMode> - Arquivo .jsx trecho de Java Script usando sintaxe de html, renderiza duas vezes para aumentar a robustez do projeto.
+
+Todo componente em React é uma função
+
+Nomeação de componente - Ex: PascalCase, MainSection
+
+Nomeação de variável - Ex: camelCase, corcundaDoCamelo
+
+Nomeação de classes - kebab-case
+
+Export default - Importa com qualquer nome e sem chaves
+
+Export sem default - Importa entre chaves e com o nome exportado
+
+Self closing tag - <Header></Header> ou <Header />
+
+Nomeação de Classes em CSS utilizando metodologia BEM
+BEM = Blocks Elements Mofifiers
+bloco__elementos--modificador. EX: header, header__link, item-list__header, header__link--small
+
+<> Tag vazia em React é um fragmento, faz com que seja possível passa pela restrição do React de devolver apenas um elemento, um componente.
+
+Font Awesone - icones para utilizar no projeto
+
+Componentes recebem props(parametros, argumentos), um json completo
+
+{items === 6 ? (
+          <>
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+          </>
+        ) : (
+          <>
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+          </>
+        )}
+
+Template strings - `` com crase é possível usar variáveis no meio de um texto
+
+{Array(items)
+          .fill()
+          .map((currantValure, index) => (
+            <SingleItem key={`${title}-${index}`} />
+          ))}
+
+Spread operator - ... cria uma cópia de um Array
+
+Extenção react-router-dom - permite criar as rotas das páginas
+
+Executar uma função - Chama a função com parenteses na frente
+
+API - Application Programming interface
+
+node --watch ./api/server.js - para atualizar o servidor node automaticamente
